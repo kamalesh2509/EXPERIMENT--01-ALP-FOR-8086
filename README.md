@@ -106,7 +106,17 @@ ret
 ![Screenshot (28)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/90f23061-9331-4a0b-8b86-a4754df82154)
 
 ## Multiplication alp 
+```
+org 100h
+MOV AL,12H;
+MOV BL,12H;
+MUL BL;
+mov [0575H],al;
+ret
+```
  ## Output  
+
+![Screenshot (29)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/c334c0c3-8d4c-4e1e-8f25-8721498caa1b)
 
 
 ## Division alp 
