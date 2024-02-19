@@ -92,8 +92,19 @@ ret
  ![Screenshot (27)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/72a75904-30db-4342-9aae-6460b5f48731)
 
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+mov al,0a9h;
+mov bl,0b3h;
+sub al,bl;
+mov [0575H],al;
+ret
+```
+
 ## Output  
+
+![Screenshot (28)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/90f23061-9331-4a0b-8b86-a4754df82154)
+
 ## Multiplication alp 
  ## Output  
 
