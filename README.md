@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :E.Kamalesh
+Roll no :212222100019
+Date of experiment :19/02/2024
 
 
 
@@ -120,13 +120,25 @@ ret
 
 
 ## Division alp 
+```
+org 100h
+
+MOV AL,90H;
+MOV BL,15H;
+DIV BL;
+mov [3004H],al;
+
+ret
+```
 
 ## Output  
+
+![Screenshot (30)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/fb2ac2a2-c04d-4a3c-957d-c6c8d0ef26f2)
 
 
 ## Result :
  
-
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
 
 
 
