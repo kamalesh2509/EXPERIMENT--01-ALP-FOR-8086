@@ -78,11 +78,19 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
+```
+org 100h
+mov al,0a5h;
+mov bl,0b7h;
+add al,bl;
+mov [0419H],al;
+ret
+```
 
 ## Output  
- 
+
+ ![Screenshot (27)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/72a75904-30db-4342-9aae-6460b5f48731)
+
 ## Subtraction   of 8 bit numbers  ALP 
  
 ## Output  
