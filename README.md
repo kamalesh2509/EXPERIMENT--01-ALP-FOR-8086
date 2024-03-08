@@ -137,7 +137,29 @@ ret
 ## Output  
 
 ![Screenshot (30)](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/fb2ac2a2-c04d-4a3c-957d-c6c8d0ef26f2)
+## Program for logical operations
+```
+org 100H
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+XOR AX,BX;
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+ret
+## Output
 
+![309191532-69b341bd-d8c5-4911-bfac-829daa209c65](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/a474b302-0333-4ca4-ba89-63de4e7ad195)
 
 ## Result :
  
