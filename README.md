@@ -157,6 +157,7 @@ MOV AX,0A32H;
 NOT AX;
 MOV [SI+6],AX;
 ret
+```
 ## Output
 
 ![309191532-69b341bd-d8c5-4911-bfac-829daa209c65](https://github.com/kamalesh2509/EXPERIMENT--01-ALP-FOR-8086/assets/120444689/a474b302-0333-4ca4-ba89-63de4e7ad195)
