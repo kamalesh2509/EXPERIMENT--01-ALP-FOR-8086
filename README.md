@@ -1,11 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
-
-## Name :E.Kamalesh
-
-## Roll no :212222100019
-
-## Date of experiment :19/02/2024
-
+# EXPERIMENT 01 ALP FOR 8086
+```
+Name :E.Kamalesh
+Roll no : 212222100019
+```
 
 
 
